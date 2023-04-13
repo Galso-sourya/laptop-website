@@ -1,0 +1,310 @@
+*{
+	margin:0;
+	padding:0;
+}
+header{
+	background-color:black;
+	width:100vw;
+	height:13vh;
+	z-index:1000;
+	border-bottom: 1px solid rgba(255,255,255,0.3);
+	display:flex;
+	flex-direction:row;
+	position: sticky;
+	top: 0;
+}
+.logo{
+padding-left:30px;	
+}
+body{
+	background-color:black;
+}
+.up{
+display:flex;
+flex-direction:row;	
+align-items:center;
+margin-left:400px;
+gap:20px;
+}
+.up a:hover{
+	color:red;
+	text-decoration:underline blue;
+	transform:scale(2);
+}
+.up a{
+text-decoration:none;
+font-size:14.08px;
+font-family:'Roboto', sans-serif;
+color:white;
+}
+.search{
+	height:50%;
+	direction:relative;
+	margin-left:250px;
+	margin-top:20px;
+}
+.cart{
+	direction:relative;
+	margin-left:50px;
+}
+.start{
+	position:relative;
+	margin-top:5px;
+	width:100vw;
+	height:110vh;
+	background-image:url("laptop.jpg");
+	background-size:cover;
+}
+h1{
+	color:white;
+	margin-top:50px;
+	margin-left:35vw;
+}	
+h3{
+	direction:relative;
+	color:white;
+	margin-top:10px;
+	margin-left:37vw;
+}
+#button{
+direction:relative;
+	color:white;
+	margin-top:20px;
+	margin-left:45vw;
+background-color:red;
+width:100px;	
+height:60px;
+border-radius:5px;
+}
+.aboutt{
+	width:100vw;
+	height:90vh;
+}
+#one{
+	direction:relative;
+	color:white;
+	text-align:center;
+	margin-top:15px;
+}
+span{
+	color:#D3AD7F;
+}
+.one{
+	direction:relative;
+	margin-top:30px;
+	margin-left:150px;
+	width:80%;
+	height:80%;
+	display:flex;
+}
+.two{
+width:50%;
+height:100%;	
+}
+.three{
+	width:50%;
+height:100%;
+background-color:grey;	
+display:flex;
+flex-direction:column;
+justify-content:center;
+gap:10px;
+}
+.four{
+	width:100%;
+	height:100%;
+	object-fit: cover;
+}
+#button0{
+background-color:#D3AD7F;
+color:white;
+width:100px;	
+height:40px;
+cursor: pointer;
+}
+#two{
+	font-size:30px;
+	font-weight: bold;
+}
+#button0:hover{
+width:150px;	
+height:40px;
+transition-duration:1s;
+}
+.list{
+	width:100vw;
+	height:170vh;
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin: 10px 30px 10px 30px;
+}
+#heading{
+	direction:relative;
+	color:white;
+	text-align:center;
+	margin-top:15px;
+}
+.boxu{
+	width:28vw;
+	height:79vh;
+	border: solid 1px gray;
+}
+.logo0{
+	width:30px;
+	height:30px;
+}
+.group{
+direction:relative;
+margin-top:20px;
+margin-left:110px;	
+gap:25px;
+display:flex;
+}
+.hovering:hover{
+transform:scale(1.5);	
+}
+#laptop{
+	direction:relative;
+	margin-top:10px;
+	margin-left:40px;
+	width:80%;
+	height:50%;
+}
+#laptop-name{
+direction:relative;
+margin-top:5px;
+color:white;
+text-align:center;	
+}
+#price{
+direction:relative;
+margin-top:5px;
+color:white;
+text-align:center;	
+}
+#previous{
+direction:relative;
+margin-bottom:5px;
+color:white;
+text-align:center;
+text-decoration: line-through;	
+}
+#headings{
+	font-size:50px;
+	direction:relative;
+	color:white;
+	text-align:center;
+	margin-top:15px;
+}
+.rates{
+	width:100vw;
+	height:100vh;
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+gap:30px;	
+}
+.review-box{
+	border: 1px solid grey;
+	border-radius:20px;
+}
+.review-box:first-child{
+	grid-row:1/3;
+}
+.review-box:last-child{
+	grid-column:2/4;
+}
+#person{
+	position:relative;
+	margin-top:30%;
+	margin-left:45%;
+	width:10%;
+	height:10%;
+}
+#review_pic{
+	position:relative;
+	margin-top:10px;
+	margin-left:45%;
+	width:10%;
+	height:10%;
+}
+#person0{
+	margin-left:35%;
+	border-radius: 50%;
+	height: 100px;
+    width: 30%;
+}
+#person1{
+	position:relative;
+margin-left:5px;
+	border-radius: 50%;
+	height: 50px;
+    width: 30%;
+}
+#person2{
+	color:white;
+	margin-left:10px;
+	margin-right:5px;
+}
+#person3{
+	color:white;
+}
+#person4{
+	color:white;
+}
+.lastu{
+	display:flex;
+	margin-top:5px;	
+}
+.contact_box{
+	width:100vw;
+	height:90vh;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact_form{
+	position:relative;
+	background-color:grey;
+	width:40vw;
+	height:80vh;
+}
+#touch{
+	position:relative;
+	color:white;
+	text-decoration:capitalize bolder;
+	margin-top:15%;
+	margin-left:35%;
+}
+.unique{
+margin-left:70px;
+display:flex;
+flex-direction:column;	
+}
+.give{
+	background-color:black;
+	color:white;
+	border: red solid 1px;
+	height:60px;
+	width:80%;
+}
+#button00{
+	position:relative;
+	margin-top:40px;
+	margin-left:130px;
+background-color:#D3AD7F;
+color:white;
+width:100px;	
+height:40px;
+cursor: pointer;
+}
+#button00:hover{
+width:150px;	
+height:40px;
+transition-duration:1s;
+}
+.last{
+	background-color:brown;
+	width:100vw;
+	height:20vh;
+}
